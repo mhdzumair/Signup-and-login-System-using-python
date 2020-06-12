@@ -8,6 +8,8 @@
 
    #### How to run the program:
    ```
+   git clone https://github.com/mhdzumair/Signup-and-login-System-using-python.git
+   cd Signup-and-login-System-using-python
    python3 loginSignupSystem.py
    ```
 
@@ -30,5 +32,7 @@
    
    #### How to run the program:
    ```
+   git clone https://github.com/mhdzumair/Signup-and-login-System-using-python.git
+   cd Signup-and-login-System-using-python
    python3 mvc/run.py
    ```
