@@ -1,4 +1,10 @@
 from controller import Controller
+import subprocess
+import sys
+
+
+def install(package):
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
 
 
 def run():
@@ -12,3 +18,5 @@ if __name__ == "__main__":
         run()
     except KeyboardInterrupt:
         Controller.exitMethod()
+    except ImportError:
+        install("pymongo")
